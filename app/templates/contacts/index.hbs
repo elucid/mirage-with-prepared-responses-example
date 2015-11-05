@@ -1,3 +1,7 @@
+{{input placeholder="Search" value=search}}
+
+<br>
+
 <ul id="contacts">
   {{#each model as |contact|}}
   <li>{{link-to contact.firstName 'contacts.show' contact}}</li>
